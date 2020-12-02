@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8"/>
+	<title>Estilo Musica</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+	</head>
+	<style type="text/css">
+		body{
+			background-color: black;
+			width: 95%;
+			margin: auto;
+		}
+		main{
+			background: white;
+			border-radius: 20px 40px;
+		}
+		h3{
+			color: white;
+		}
+	</style>
+<body>
+	<center>
+		<main>
+			<div class="jumbotron text-center">
+			<div class="row">
+				<p>Qual o seu nome e Estilo musical?</p>
+				<input id="name" type="char" placeholder=""oninput="convertName(this.value)"
+					onchange="convertName(this.value)">
+					<script type="text/javascript">
+						function convertName(x){ 
+						document.getElementById('out').innerHTML = x;
+					}
+					</script>
+					<p>----------------------------</p>
+					<p>Bem vindo!!!</p><p><span id="out"></span></p>
+					<p>----------------------------</p>
+					<p><a href="#sobre">Sobre Mim</a></p>
+		     <div class="alert alert-success" role="alert">
+		      <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a> <!--- x para fechar o alerta -->
+		      <strong>ISSO VOCÊ MESMO!!</strong> você está na melhor pág WEB de todas <span class="glyphicon glyphicon-thumbs-up">
+    		</div>
+			<h1><span class="glyphicon glyphicon-music"></span> ELETRONICA <span class="glyphicon glyphicon-music"></span></h1>
+			</div>
+			<h2>A música eletrônica é gerada através do uso de recursos digitais e tecnológicos, como sintetizadores – equipamentos que têm como fim elaborar sons artificialmente -, gravadores digitalizados, computadores ou programas de composição.</h2>
+			<h2>Um dos meus DJs brasileiros preferidos é o Alok, muito conhecido em território nacional</h2>
+			<img src="img/Capturar1.jpg">
+			<h2>Uma de suas musicas mais conhecidas é a FUEGO</h2>
+			<div class="container">
+    			<img src="img/Capturar2.jpg" width="768" height="511" />
+			</div>
+			<div>
+				<p><a href="https://www.youtube.com/watch?v=VQ2EyU75p2o"target="_blank"> <h3><span class="glyphicon glyphicon-headphones"></span>LINK PARA MÚSICA<span class="glyphicon glyphicon-headphones"></span></h3></a></a></p>
+			</div>
+			<p>---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------</p>
+			<h2>Entrando no território <strong>INTERNACIONAL</strong> o Dj Marshmello  vem se destacando muito, com musicas boas e videos bem produzidos.</h2>
+			<div class="container">
+    			<img src="img/Capturar3.jpg" width="768" height="511" />
+			</div>
+			<h2>Uma de suas musicas mais conhecidas é a Alone</h2>
+			<div class="container">
+    			<img src="img/Capturar4.jpg" width="768" height="511" />
+			</div>
+			<div>
+				<p><a href="https://www.youtube.com/watch?v=ALZHF5UqnU4"target="_blank"><h3><span class="glyphicon">&#xe038;</span>LINK PARA MÚSICA<span class="glyphicon">&#xe038;</span>	</h3></a></a></p>
+			</div>
+			<div class="alert alert-danger alert-dismissible fade in">
+			    <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+			    <strong>NÃO ESQUEÇA!!</strong> De compartilhar esse site maravilhoso com os AMIGOS<H2><span class="glyphicon glyphicon-thumbs-up"></span></H2>
+  			</div>
+		</main>
+	</center>
+	<section id="sobre">
+		<div class="container">
+    				<img src="img/Capturar5.jpg" width="200" height="200" />
+		</div>	
+				<h3>Olá Meu nome é Jefferson Soares e sou Apenas um estudande querendo provar o seu valor!!!</h3>
+  	</section>
+</body>
+</html>
